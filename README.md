@@ -161,7 +161,7 @@ When you restart the tool on the same directory, it resumes automatically unless
 
 ### Local Browser App
 
-The script uses Python's built-in `ThreadingHTTPServer` to start a private local web server on `127.0.0.1`. No external web service is involved. The browser UI is served from the Python script itself.
+The script uses Python's built-in `ThreadingHTTPServer` to start a private local web server on `127.0.0.1`. No external web service is involved. The browser UI is served from `review.html`.
 
 The main routes are:
 
