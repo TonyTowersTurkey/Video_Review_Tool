@@ -22,11 +22,6 @@ brew install ffmpeg
 python3 video_review.py "/path/to/videos"
 ```
 
-Example:
-
-```bash
-python3 video_review.py "/Volumes/rootFolder/Media/youtube-dl/32_Russian"
-```
 
 The script starts a local web server, opens the review page in your browser, and prints the local URL in Terminal. Leave that Terminal window open while reviewing.
 
